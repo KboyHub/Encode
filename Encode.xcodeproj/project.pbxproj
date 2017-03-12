@@ -15,6 +15,7 @@
 		B2250DA91E74FF90007BB3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2250DA71E74FF90007BB3E3 /* LaunchScreen.storyboard */; };
 		B2250DB41E74FF90007BB3E3 /* EncodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2250DB31E74FF90007BB3E3 /* EncodeTests.m */; };
 		B2250DBF1E74FF90007BB3E3 /* EncodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2250DBE1E74FF90007BB3E3 /* EncodeUITests.m */; };
+		B2250DCE1E7500BA007BB3E3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B2250DCD1E7500BA007BB3E3 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B2250DBA1E74FF90007BB3E3 /* EncodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2250DBE1E74FF90007BB3E3 /* EncodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncodeUITests.m; sourceTree = "<group>"; };
 		B2250DC01E74FF90007BB3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2250DCC1E7500BA007BB3E3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B2250DCD1E7500BA007BB3E3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				B2250DA71E74FF90007BB3E3 /* LaunchScreen.storyboard */,
 				B2250DAA1E74FF90007BB3E3 /* Info.plist */,
 				B2250D991E74FF90007BB3E3 /* Supporting Files */,
+				B2250DCC1E7500BA007BB3E3 /* Person.h */,
+				B2250DCD1E7500BA007BB3E3 /* Person.m */,
 			);
 			path = Encode;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			files = (
 				B2250DA11E74FF90007BB3E3 /* ViewController.m in Sources */,
 				B2250D9E1E74FF90007BB3E3 /* AppDelegate.m in Sources */,
+				B2250DCE1E7500BA007BB3E3 /* Person.m in Sources */,
 				B2250D9B1E74FF90007BB3E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +436,7 @@
 				DEVELOPMENT_TEAM = LRJBN79GXB;
 				INFOPLIST_FILE = Encode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = personDevelop.Encode;
+				PRODUCT_BUNDLE_IDENTIFIER = personDevelop.RACTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -442,7 +448,7 @@
 				DEVELOPMENT_TEAM = LRJBN79GXB;
 				INFOPLIST_FILE = Encode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = personDevelop.Encode;
+				PRODUCT_BUNDLE_IDENTIFIER = personDevelop.RACTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
